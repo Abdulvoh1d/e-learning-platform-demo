@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f4f1e8">
+  <meta name="description" content="A friendly, local-first sample course library demo.">
+  <title>Learnwell — Course library</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
+  <header class="site-header">
+    <a class="brand" href="#library" aria-label="Learnwell course library home">
+      <span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 32 32" focusable="false"><path d="M6 7.5c4.3-.8 7.6.2 10 2.7 2.4-2.5 5.7-3.5 10-2.7v16c-4.3-.8-7.6.2-10 2.7-2.4-2.5-5.7-3.5-10-2.7z"/><path d="M16 10.2v16"/></svg></span>
+      <span>learnwell<span class="brand-period">.</span></span>
+    </a>
+    <nav class="top-nav" aria-label="Main navigation">
+      <button class="nav-link is-active" type="button" data-nav="library" aria-current="page">Explore courses</button>
+      <button class="nav-link" type="button" data-nav="learning">My learning</button>
+    </nav>
+    <div class="header-note"><span class="status-dot" aria-hidden="true"></span>Sample library</div>
+  </header>
+
+  <main id="main-content" tabindex="-1">
+    <div id="app" aria-live="polite" aria-busy="false"></div>
+  </main>
+
+  <footer class="site-footer">
+    <span>Learn at your own pace.</span>
+    <span>Demo experience · Sample courses, lesson content, and quiz scores</span>
+  </footer>
+</body>
+</html>
